@@ -10,10 +10,19 @@
   background-size: contain;
   background-position: left;
 
+  @media (max-width: 768px) {
+    background-image: url(../images/Logos/7qqLlhMgLxEXS7uLb5oPnCt7tjT.webp);
+  }
+
   &__content {
     margin-left: 60%;
     text-align: center;
     position: relative;
     max-width: 40%;
+
+    @media (max-width: 768px) {
+      margin-left: 0;
+      max-width: 100%;
+    }
   }
 }
