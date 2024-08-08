@@ -1,0 +1,19 @@
+@use "variaveis";
+
+.hero {
+  padding: 5.6vw;
+  margin-top: 15px;
+  margin-left: 15px;
+  min-height: 80vh;
+  background-image: url(../images/Logos/srkXPyRY4FiQRVbwoCBEESAibAA.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+
+  &__content {
+    margin-left: 60%;
+    text-align: center;
+    position: relative;
+    max-width: 40%;
+  }
+}
