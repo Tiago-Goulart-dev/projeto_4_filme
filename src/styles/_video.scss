@@ -1,11 +1,24 @@
 .video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px 0;
 
   &__frame {
-    height: 540px;
-    width: 960px;
+    position: absolute;
+    top: 0;
+    left: 12.5%;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    height: 75%;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 250px;
   }
 }
